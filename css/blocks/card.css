@@ -1,0 +1,187 @@
+.card {
+    width: 596px;
+    height: 370px;
+    display: flex;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+    justify-content: space-between;
+}
+
+.card__column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.card__title {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.1118px;
+    line-height: 25px;
+    color: #404040;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+
+.card__card-img {
+    margin-left: 36px;
+}
+
+.card__arrow-left {
+    position: relative;
+    top: 109px;
+    left: 12px;
+}
+
+.card__arrow-right {
+    position: relative;
+    top: -120px;
+    left: 365px;
+}
+
+.card__line {
+    position: relative;
+    width: 0px;
+    height: 190px;
+    left: 370px;
+    bottom: 40px;
+    border: 1px solid #E8E8E8;
+}
+
+.card__box {
+    margin-bottom: 35px;
+    margin-left: 36px;
+    position: relative;
+    bottom: 180px;
+}
+
+.card__text-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__text {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AEAEAE;
+}
+
+.card__limit {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+
+.card__progress {
+    width: 320px;
+    height: 10px;
+    background: #F1F1F1;
+    border-radius: 13.617px;
+    margin-bottom: 10px;
+}
+
+.card__value {
+    width: 79px;
+    height: 100%;
+    background: #197BBD;
+    border-radius: 10.7766px;
+}
+
+.card__column2 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: -20px;
+    right: 30px;
+}
+
+.card__balance {
+    position: relative;
+    top: -18px;
+    text-align: right;
+}
+
+.card__money {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 22px;
+    color: #197BBD;
+}
+
+.card__money::before {
+    content: "$ ";
+    font-size: 19px;
+}
+
+.card__balance-text {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AEAEAE;
+}
+
+
+.card__income {
+    margin-top: 35px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #439A86;
+}
+
+.card__income::before {
+    content: "$ ";
+    font-size: 19px;
+}
+
+.card__outcome {
+    margin-top: 35px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #BB4430;
+}
+
+.card__outcome::before {
+    content: "$ ";
+    font-size: 19px;
+}
+
+.card__switch-text {
+    margin-top: 13px;
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AEAEAE;
+}
+
+.switch {
+    margin-top: 5px;
+}
+
+.slider {}
+
+.round {}

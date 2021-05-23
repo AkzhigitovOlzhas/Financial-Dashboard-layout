@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    background: rgb(148, 74, 74);
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template: 1fr 1fr/ 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.box1 {
+    background: rgb(77, 161, 209);
+    grid-column: 2/3;
+}
+
+.box2 {
+    background: rgb(48, 131, 179);
+    grid-row: 1/2;
+}
+
+.box3 {
+    background: rgb(48, 179, 113);
+
+}
+
+.box4 {
+    background: rgb(77, 209, 143);
+}

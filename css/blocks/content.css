@@ -1,0 +1,23 @@
+.content {
+    width: 94%;
+    height: 92%; 
+    margin-left: 45px;
+    display: flex;
+}
+
+.content__column1 {
+    width: 596px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content__column2 {
+    margin-left: 32px;
+    width: 596px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

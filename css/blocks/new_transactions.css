@@ -1,0 +1,152 @@
+.new-transactions {
+    width: 502px;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-transactions__box1 {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 19.0044px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.new-transactions__box2 {
+    background: linear-gradient(180deg, #70BDF0 0%, #90C9EF 100%);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 19.0044px;
+    margin-left: 20px;
+}
+
+.new-transactions__title {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.1118px;
+    line-height: 25px;
+    color: #404040;
+    position: relative;
+    top: 18px;
+}
+
+.new-transactions__users {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.new-transactions__user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.new-transactions__add-new {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #404040;
+    position: relative;
+    top: 10px;
+}
+
+.new-transactions__user-name {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #404040;
+}
+
+.new-transactions__transfer-form {
+    display: flex;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+.new-transactions__send-icon {
+    position: absolute;
+    top: 14px;
+    left: 110px;
+}
+
+.new-transactions__send-btn {
+    position: relative;
+    display: flex;
+    width: 130px;
+    background: #FFC145;
+    border-radius: 13.617px;
+    padding: 11px 0 13px 11px;
+    position: relative;
+}
+
+.new-transactions__input {
+    position: relative;
+    right: 10px;
+    width: 170px;
+    border: 1px solid #197BBD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23.9789px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #C7C7C7;
+    padding-left: 10px;
+}
+
+.new-transactions__dollar {
+    position: absolute;
+    top: 6px;
+    left: 140px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20.1118px;
+    line-height: 24px;
+    color: #C7C7C7;
+}
+
+.new-transactions__btn-text {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.1442px;
+    line-height: 14px;
+    color: #404040;
+}
+
+
+.new-transactions__text-link {
+    position: relative;
+    left: 13px;
+    bottom: 66px;
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.1118px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.new-transactions__box2-icon {
+    position: relative;
+    right: -10px;
+    bottom: 65px;
+}

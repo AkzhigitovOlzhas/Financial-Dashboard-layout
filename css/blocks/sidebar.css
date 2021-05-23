@@ -1,0 +1,128 @@
+.sidebar {
+    margin-left: 47px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sidebar__logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -30px;
+}
+
+.sidebar__img {}
+
+.sidebar__logo-text {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.7475px;
+    line-height: 21px;
+    color: #0F4264;
+}
+
+.sidebar__menu {
+    position: relative;
+    top: -125px;
+    left: 40px;
+}
+
+.sidebar__nav-link-active {
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 27px;
+    color: #197BBD;
+    position: relative;
+    top: -9px;
+}
+
+.sidebar__bg {
+    position: relative;
+    left: -45px;
+    width: 165px;
+    height: 39px;
+    background: #F0F7FF;
+    border-radius: 4px;
+    margin-bottom: 7px;
+}
+
+.sidebar__nav-link {
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 27px;
+    color: #C7C7C7;
+    position: relative;
+    top: -9px;
+}
+
+.sidebar__item1 {
+    list-style: none;
+}
+
+.sidebar__item2 {
+    list-style: url("../../img/sidebar/menu-icons/2.png");
+}
+
+
+.sidebar__item3 {
+    list-style: url("../../img/sidebar/menu-icons/3.png");
+}
+
+.sidebar__item4 {
+    list-style: url("../../img/sidebar/menu-icons/4.png");
+}
+
+.sidebar__item5 {
+    list-style: url("../../img/sidebar/menu-icons/5.png");
+}
+
+.sidebar__item6 {
+    list-style: url("../../img/sidebar/menu-icons/6.png");
+}
+
+.sidebar__premium-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: -15px;
+}
+
+.sidebar__premium-img {}
+
+.sidebar__premium-text {
+    width: 103px;
+    text-align: center;
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 8.7511px;
+    line-height: 11px;
+    text-align: center;
+    color: #404040;
+    margin: 15px 0 10px 0;
+}
+
+.sidebar__upgrade-btn {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.1442px;
+    line-height: 14px;
+    color: #404040;
+    text-decoration: none;
+    background: #FFC145;
+    border-radius: 13.617px;
+    padding: 10px 15px;
+}
+
+.sidebar__upgrade-icon {}

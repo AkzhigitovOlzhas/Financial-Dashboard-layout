@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Quicksand:wght@500;700&display=swap');
+
+@font-face {
+    font-family: "Suprema";
+    src: url("../../fonts/Suprema/Suprema.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.dashboard {
+    height: 100%;
+    display: grid;
+    grid-template: 154px 800px/251px 1224px;
+}
+
+.dashboard__sidebar { 
+    grid-column: 1/2;
+    grid-row: 1/3;
+    box-sizing: border-box;
+    border-right: 1px solid #EBEBEB;
+}
+
+.dashboard__header { 
+}
+
+.dashboard__content {
+    grid-column: 2/3;
+ 
+}

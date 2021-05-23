@@ -1,0 +1,75 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text-block {
+    position: relative;
+    left: 45px;
+    top: 33px;
+}
+
+.header__title {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 43.3726px;
+    line-height: 53px;
+    color: #404040;
+}
+
+.header__desc {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.0564px;
+    line-height: 20px;
+    color: #AEAEAE;
+}
+
+.header__account-block {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 33px;
+}
+
+.header__message-icon {
+    margin-right: 25px;
+}
+
+.header__bell-icon {
+    margin-right: 25px;
+}
+
+.header__account {
+    display: flex;
+    align-items: center;
+    margin-right: 47px;
+}
+
+.header__profile-photo {}
+
+.header__account-info {
+    margin-left:5px;
+}
+
+.header__user-name {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+
+.header__user-status {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: b;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AEAEAE;
+}

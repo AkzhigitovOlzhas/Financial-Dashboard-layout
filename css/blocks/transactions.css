@@ -1,0 +1,93 @@
+.transactions {
+    background: #FFFFFF;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 19.0044px;
+    width: 596px;
+    height: 340px;
+}
+
+.transactions__title {
+    font-family: Suprema;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20.1118px;
+    line-height: 25px;
+    color: #404040;
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+
+.transactions__table {
+    display: grid;
+	grid-template-rows: 30px 1fr 1fr 1fr 1fr 1fr;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	text-align: left;
+	color: #AEAEAE;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.transactions__table-row {
+    display: grid;
+	grid-template-columns: 215px 1fr 1fr 1fr;
+	border-bottom: 0.5px solid #ECECEC;
+	padding: 13px 0;
+}
+
+.transactions__table-row:first-child {
+    border-bottom: none;
+    padding: 0;
+}
+
+.transactions__table-row {
+    display: grid;
+	grid-template-columns: 215px 1fr 1fr 1fr;
+	border-bottom: 0.5px solid #ECECEC;
+	padding: 13px 0;
+}
+
+.transactions__amount {
+    position: relative;
+    left: 55px;
+}
+
+.transactions__default-text {
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    margin-left: 5.42px;
+    color: #404040;
+}
+
+.transactions__icon-box {
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.transactions__icon-text {
+    font-family: Suprema;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    margin-left: 5.42px;
+    color: #404040;
+}
+
+.transactions__price {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: right;
+    color: #404040;
+}
